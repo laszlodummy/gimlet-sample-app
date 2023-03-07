@@ -9,8 +9,8 @@ values:
   gitRepository: laszlodummy/gimlet-sample-app
   gitSha: '{{ .SHA }}'
   image:
-    repository: ghcr.io/gimlet-io/gimlet-sample-app
-    tag: v1.0.0
+    repository: ghcr.io/laszlodummy/gimlet-sample-app
+    tag: '{{ .SHA }}'
   vars:
     COLOR: DeepPink
     COLOR2: DarkOrange
